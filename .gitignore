@@ -9,3 +9,11 @@
 
 # rspec failure tracking
 .rspec_status
+
+# Ignore auto-generated main file
+/main
+
+# Ignore Gemfile.lock. See https://stackoverflow.com/questions/4151495/should-gemfile-lock-be-included-in-gitignore
+/Gemfile.lock
+
+# Put your personal ignore files in /home/clr/.config/git/ignore
