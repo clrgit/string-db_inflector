@@ -13,7 +13,7 @@ module String::DbInflector
     # Pluralize word according to the database convention that a pluralized
     # word is always distinguishable from a singular word. This causes eg.
     # 'sheep' to be pluralized as 'sheeps'. It is guaranteed that
-    # word.pluralize.sigularize is always equal to word
+    # word.pluralize.sigularize is a no-op
     #
     def pluralize
       r = @@db_inflector.pluralize(self)
